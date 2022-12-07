@@ -55,4 +55,7 @@ public class Division {
     public String getTitle(){
         return this.title;
     }
+    public String getDiv(){
+        return "ID:" + this.getID_key() +" name:" + this.getTitle();
+    }
 }
