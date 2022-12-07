@@ -14,7 +14,7 @@ public class Division {
      */
     public Division(String new_title){
         title=new_title;
-        ID_key=(int) Math.random() * 1000;
+        ID_key=(int)(Math.random() * 1000);
     }
 
     /**
