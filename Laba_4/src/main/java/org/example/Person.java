@@ -133,41 +133,41 @@ public class Person {
         return  this.BirtDay;
     }
 
-    /**
-     *get value function division
-     * @return string with class values division
-     */
-    public String getDiv(){
-        return "ID:" + this.div.getID_key() +" name:" + this.div.getTitle();
-    }
-
-    /**
-     * get value function ID from class division
-     * @return value ID
-     */
-    public int getID_key()
-    {
-    return this.div.getID_key();
-    }
-    /**
-     *get value function name from class division
-     * @return value Title
-     */
-    public String getDivTitle(){
-        return this.div.getTitle();
-    }
-
-    /**
-     *screen display function
-     * @return line with class fields
-     */
+//    /**
+//     *get value function division
+//     * @return string with class values division
+//     */
+//    public String getDiv(){
+//        return "ID:" + this.div.getID_key() +" name:" + this.div.getTitle();
+//    }
+//
+//    /**
+//     * get value function ID from class division
+//     * @return value ID
+//     */
+//    public int getID_key()
+//    {
+//    return this.div.getID_key();
+//    }
+//    /**
+//     *get value function name from class division
+//     * @return value Title
+//     */
+//    public String getDivTitle(){
+//        return this.div.getTitle();
+//    }
+//
+//    /**
+//     *screen display function
+//     * @return line with class fields
+//     */
     public String toString() {
         return
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", division:" + getDiv() +
+                ", name='" + name + ' ' +
+                ", gender='" + gender + ' ' +
+                ", division:" + div.getDiv() +
                 ", salary=" + Salary +
-                ", BirthDay='" + BirtDay + '\'';
+                ", BirthDay='" + BirtDay + ' ';
     }
 }
